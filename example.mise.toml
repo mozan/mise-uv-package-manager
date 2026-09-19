@@ -1,0 +1,9 @@
+[tools]
+uv = "latest"
+
+[bootstrap.plugins]
+uv = "https://github.com/YOUR_GITHUB_USER/mise-uv-packages"
+
+[bootstrap.packages]
+"uv:ruff" = "latest"
+"uv:black" = "26.3.1"
